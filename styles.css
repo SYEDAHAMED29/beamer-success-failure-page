@@ -1,0 +1,30 @@
+body {
+  font-family: "Lexend Deca", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main {
+  text-align: center;
+  line-height: 1.5;
+}
+
+button {
+  font-family: "Lexend Deca", sans-serif;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #00a4bd;
+  border: 2px solid #00a4bd;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: #00a4bd;
+}

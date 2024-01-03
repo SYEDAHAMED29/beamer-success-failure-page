@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beamer | Failure Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <img src="./images/general.svg" alt="Failure Image" />
+      <div>
+        <h1>Well, this is disappointing.</h1>
+        <p>
+          Sorry. Sometimes things don’t go according to plan. Please try booking
+          your meeting again.
+        </p>
+      </div>
+      <button id="btn">Try booking again</button>
+    </main>
+    <script>
+      document.getElementById("btn").addEventListener("click", function () {
+        window.history.back();
+      });
+    </script>
+  </body>
+</html>
